@@ -1,0 +1,50 @@
+.hero_01 {
+  padding: 10vh 0px;
+
+  .hero_01_content {
+    padding-left: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+
+    h1 {
+      width: 50vw;
+    }
+
+    p {
+      width: 20vw;
+    }
+  }
+
+  .hero_01_img_wrapper {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    width: 65vw;
+    height: 80vh;
+
+    div {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .arrow {
+        width: 64px;
+        height: 64px;
+        background-color: #0056ff;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+
+      .left_arrow {
+        right: 65px;
+      }
+    }
+  }
+}
